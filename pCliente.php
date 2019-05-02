@@ -58,7 +58,7 @@ if ($row == 1 ) {
 		<table class="table striped">
 			<h5>Saldo</h5>
 			<tr>
-				<h4><?php echo "$saldo"; ?></h4>
+				<h4>R$<?php echo "$saldo"; ?></h4>
 			</tr>
 		</table>
 	</div>

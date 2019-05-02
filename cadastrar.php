@@ -27,7 +27,7 @@
     <input type="text" class="form-control" name="dn" placeholder="dd/mm/aaaa" required="" maxlength="10" minlength="10">
     <br>
     <label>CPF</label>
-    <input type="text" class="form-control" name="cpf" placeholder="CPF" maxlength="11" minlength="11" required="">
+    <input type="text" class="cpf form-control" name="cpf" id="cpf" placeholder="CPF" maxlength="11" minlength="11" required="">
     <br>
     <label>RG</label>
     <input type="text" class="form-control" name="rg" placeholder="RG" maxlength="9" minlength="9" required=""> 
@@ -58,5 +58,10 @@
   </div>
   </form>
 </div>
+<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="jquery/jquery.mask.min.js"></script>
+<script type="text/javascript">,
+  $('.cpf').mask('000.000.000-00');
+</script>
 </body>
 </html>

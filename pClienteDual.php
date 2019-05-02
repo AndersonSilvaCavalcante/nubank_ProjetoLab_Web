@@ -59,7 +59,7 @@ while ($dados=$consulta->fetch_assoc()) {
 		<table class="table striped">
 			<h5>Saldo</h5>
 			<tr>
-				<h4><?php echo "$saldo"; ?></h4>
+				<h4>R$<?php echo "$saldo"; ?></h4>
 			</tr>
 		</table>
 	</div>
@@ -87,7 +87,7 @@ while ($dados=$consulta->fetch_assoc()) {
 		<table class="table striped">
 			<h5>Saldo</h5>
 			<tr>
-				<h4><?php echo "$saldop"; ?></h4>
+				<h4>R$<?php echo "$saldop"; ?></h4>
 			</tr>
 		</table>
 	</div>
